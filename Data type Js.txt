@@ -1,0 +1,13 @@
+Data type Js
+string	"it's a string" 'it"s a tring' `It'"s a string ${nameVar}`
+"it" + '"' + "s a string" === 'it"s a tring'
+number 1 -2 2.0 -3.0 e
+boolean true false
+null		vacío	-> lo define el programdor
+undefined	vacío	-> por js por defecto
+
+console.log(direccionElectronica)
+
+var direccionElectronica = "julito@unprg.edu.pe"
+let direccionElectronica = "asdfasdf"
+const DIRECCION_ELECTRONICA = "julito@unprg.edu.pe"

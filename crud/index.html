@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crud</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="full-page">
+      <h1>Products</h1>
+
+      <form>
+        <div class="form-item">
+          <label for="">Nombre</label>
+          <input type="text" placeholder="Tomate" />
+        </div>
+
+        <div class="form-item">
+          <label for="">Cantidad</label>
+          <input type="number" placeholder="21" />
+        </div>
+
+        <div class="form-item">
+          <label for="">Precio</label>
+          <input type="number" placeholder="10.5" />
+        </div>
+
+        <button type="button">Save</button>
+      </form>
+
+      <div id="table">
+        <table>
+          <tr>
+            <th>#</th>
+            <th>Nombre</th>
+            <th>Cantidad</th>
+            <th>Precio ($$)</th>
+            <th>Opciones</th>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
