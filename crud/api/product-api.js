@@ -13,5 +13,13 @@ export const ProductApi = {
             .catch(err => console.log(err))
     },
 
-    post: async () => { }
+    post: async (product) => {
+        return await fetch(path, {
+            method: "POST",
+            headers: ConfigApi.headers,
+            body: product
+        }).then(response => response.json())
+            .then(data => data)
+            .catch(err => console.log(err))
+    }
 }
